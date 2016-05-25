@@ -8,7 +8,9 @@ future.
 
 This design document describes how data is communicated from the OA component back to the ML component.
 
-
+Prerequisites
+=============
+To allow the flow_scores.csv file to be correctly copied to the LPATH, there needs to be an ssh key created on the OA node and copied to the ML node; this, to enable unattended and secure file transfer between nodes.
 
 Data Location
 =============
